@@ -33,3 +33,35 @@
 .software-category{color:#899197;font-size:9px;font-weight:700;letter-spacing:1.2px}
 @media(max-width:900px){.software-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:560px){.software-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.software-card{min-height:155px;padding:16px}.software-logo,.software-mark{width:64px;height:64px}.software-mark{font-size:26px}}
+
+.social-case-study{background:var(--bg);padding:0 7% 80px;overflow:hidden}
+.social-title{background:#f7f7f5;color:#17191b;margin:0 -7%;padding:32px 7%;min-height:245px;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center}
+.social-title .eyebrow{color:#555;margin:0}
+.social-title h2{font:700 64px/.87 "Barlow Condensed",sans-serif;margin:4px 0;text-transform:none;letter-spacing:-1px}
+.social-title h2 span{color:var(--accent)}
+.social-instagram{display:block;width:140px;height:140px;object-fit:contain}
+.social-body{max-width:1250px;margin:auto;padding-top:55px;display:grid;grid-template-columns:1fr 1.25fr;gap:65px;align-items:center}
+.social-visuals{display:flex;justify-content:center}
+.social-profile-image{display:block;width:min(100%,270px);height:auto;border:7px solid #111;border-radius:24px;box-shadow:0 15px 35px #0004}
+.social-copy p{font-size:17px}
+.social-copy ul{list-style:none;padding:0;margin:25px 0}
+.social-copy li{font-size:14px;margin:9px 0}
+.social-copy li:before{content:"•";font-size:21px;margin-right:10px}
+.social-tags{display:flex;flex-wrap:wrap;gap:8px}
+.social-tags b{font-size:9px;letter-spacing:1px;border:1px solid #fff8;padding:7px 10px}
+@media(max-width:900px){.social-title{grid-template-columns:1fr}.social-instagram{display:none}.social-title h2{font-size:50px}.social-body{grid-template-columns:1fr}.social-visuals{max-width:700px}}
+@media(max-width:560px){.social-case-study{padding:0 6% 60px}.social-title{padding:25px 6%;margin:0 -6%;min-height:180px}.social-title h2{font-size:38px}.social-body{padding-top:35px}.social-profile-image{border-radius:18px}}
+
+.youtube-case-study{background:var(--bg);color:#fff;padding:0 7% 80px;overflow:hidden}
+.youtube-title{background:#f7f7f5;color:#17191b;margin:0 -7%;padding:32px 7%;min-height:245px;display:grid;grid-template-columns:1fr auto;gap:28px;align-items:center}
+.youtube-title .eyebrow{color:#555;margin:0}
+.youtube-title h2{font:700 64px/.87 "Barlow Condensed",sans-serif;margin:4px 0;text-transform:none;letter-spacing:-1px}
+.youtube-title h2 span{color:var(--accent)}
+.youtube-mark{display:block;width:160px;height:auto;object-fit:contain}
+.youtube-body{max-width:1250px;margin:auto;padding-top:55px;display:grid;grid-template-columns:1fr 1.08fr;gap:65px;align-items:center}
+.youtube-image{order:2;display:block;width:100%;height:auto;border:7px solid #111;box-shadow:0 15px 35px #0005}
+.youtube-copy ul{list-style:none;padding:0;margin:0 0 28px}
+.youtube-copy li{font-size:15px;margin:9px 0}
+.youtube-copy li:before{content:"•";font-size:21px;margin-right:10px}
+@media(max-width:900px){.youtube-title{grid-template-columns:1fr}.youtube-mark{display:none}.youtube-title h2{font-size:50px}.youtube-body{grid-template-columns:1fr;gap:35px}.youtube-image{order:0}}
+@media(max-width:560px){.youtube-case-study{padding:0 6% 60px}.youtube-title{padding:25px 6%;margin:0 -6%;min-height:180px}.youtube-title h2{font-size:38px}.youtube-body{padding-top:35px}}

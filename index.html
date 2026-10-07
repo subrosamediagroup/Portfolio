@@ -13,8 +13,11 @@
   <div class="brand-sub">PODCAST PRODUCER &nbsp;|&nbsp; DIGITAL MARKETING &nbsp;|&nbsp; VIDEO PRODUCER</div>
   <button class="menu-toggle" aria-label="Open menu">☰</button>
   <nav>
-    <a href="#home">Home</a><a href="#podcasts">Podcasts</a><a href="#audio">Audio</a>
-    <a href="#video">Video</a><a href="#digital">Digital</a><a href="#social">Social</a><a href="#youtube">YouTube</a><a href="#software">Software</a><a href="#about">About</a><a href="#contact">Contact</a>
+    <div class="nav-group"><button type="button" class="nav-label" aria-haspopup="true">Work</button>
+      <div class="nav-menu"><a href="#podcasts">Podcasts</a><a href="#audio">Audio</a><a href="#video">Video</a></div></div>
+    <div class="nav-group"><button type="button" class="nav-label" aria-haspopup="true">Digital</button>
+      <div class="nav-menu"><a href="#social">Social</a><a href="#youtube">YouTube</a></div></div>
+    <a href="#software">Software</a><a href="#clients">Clients</a><a href="#about">About</a><a href="#contact">Contact</a>
   </nav>
 </header>
 
@@ -34,11 +37,11 @@
   <a class="service-card" href="#podcasts"><div class="icon">◉</div><h2>Podcast Production</h2><p>Recording · Editing · Mixing · Dialogue Cleanup · Video · Clips · Publishing</p></a>
   <a class="service-card" href="#audio"><div class="icon">≋</div><h2>Audio Production</h2><p>Recording · Mixing · Editing · Studio Design · Music Production</p></a>
   <a class="service-card" href="#video"><div class="icon">▣</div><h2>Video Production</h2><p>Multi-Camera · Editing · Interviews · Motion Graphics · YouTube Content</p></a>
-  <a class="service-card" href="#digital"><div class="icon">⌁</div><h2>Digital Marketing</h2><p>Social Media · Content Strategy · Brand Development · Campaigns</p></a>
+  <a class="service-card" href="#social"><div class="icon">⌁</div><h2>Digital Marketing</h2><p>Social Media · Content Strategy · Brand Development · Campaigns</p></a>
 </section>
 
 <section class="stats">
-  <div><strong>25+</strong><span>YEARS<br><small>Production & Recording</small></span></div>
+  <div><strong>15+</strong><span>YEARS<br><small>Production & Recording</small></span></div>
   <div><strong>10+</strong><span>YEARS<br><small>Digital Marketing</small></span></div>
   <div><strong>5+</strong><span>YEARS<br><small>Podcast Producer</small></span></div>
   <div><strong>870%</strong><span>CLIENT OUTREACH GROWTH<br><small>First 30 Days</small></span></div>
@@ -78,18 +81,6 @@
 <section id="video" class="section dark-panel">
   <div><p class="eyebrow">VIDEO</p><h2>Video that feels as good as it sounds.</h2><p>Multi-camera interviews, podcast video, corporate content, YouTube programming, short-form clips, graphics, and post-production.</p>
   <div class="project-grid"><div class="project project-with-video"><video class="project-video" autoplay muted loop playsinline preload="metadata" aria-label="Deal Room multi-camera interview video"><source src="assets/Deal%20Room%20Clip.mp4" type="video/mp4">Your browser does not support the video tag.</video><div class="project-copy"><span>MULTI-CAMERA</span><small>Interview Production</small></div></div><div class="project project-with-video"><video class="project-video" autoplay muted loop playsinline preload="metadata" aria-label="Egypt short-form video clip"><source src="assets/Egypt%20Short%20Web.mp4" type="video/mp4">Your browser does not support the video tag.</video><div class="project-copy"><span>SHORT-FORM</span><small>Social Clips</small></div></div><div class="project project-with-video"><video class="project-video" autoplay muted loop playsinline preload="metadata" aria-label="AT&amp;T corporate video clip"><source src="assets/ATT%20Clip.mp4" type="video/mp4">Your browser does not support the video tag.</video><div class="project-copy"><span>CORPORATE</span><small>Branded Content</small></div></div></div>
-</section>
-
-<section id="digital" class="section split">
-  <div><p class="eyebrow">DIGITAL</p><h2>Content with a purpose.</h2><p>Social media strategy, content creation, campaign development, brand storytelling, and digital marketing for companies ranging from small businesses to global brands.</p></div>
-  <div class="client-list" aria-label="Selected clients">
-    <div class="client-logo"><img src="assets/att.jpg" alt="AT&amp;T"></div>
-    <div class="client-logo"><img src="assets/ibm.jpg" alt="IBM"></div>
-    <div class="client-logo"><img src="assets/microsoft.jpg" alt="Microsoft"></div>
-    <div class="client-logo"><img src="assets/sap.jpg" alt="SAP"></div>
-    <div class="client-logo"><img src="assets/SCN.jpg" alt="Supply Chain Now"></div>
-    <div class="client-logo phoenix-logo"><img src="assets/Space_Phoenix%20copy.png" alt="Space Phoenix"></div>
-  </div>
 </section>
 
 <section id="social" class="social-case-study">
@@ -198,10 +189,26 @@
   </div>
 </section>
 
+<section id="clients" class="section software-section clients-section">
+  <div class="software-heading">
+    <p class="eyebrow">CLIENTS</p>
+    <h2>Brands I've worked with.</h2>
+    <p>Podcasts, social media, and digital marketing for companies ranging from small businesses to global brands.</p>
+  </div>
+  <div class="client-list" aria-label="Selected clients">
+    <div class="client-logo"><img src="assets/att.jpg" alt="AT&amp;T"></div>
+    <div class="client-logo"><img src="assets/ibm.jpg" alt="IBM"></div>
+    <div class="client-logo"><img src="assets/microsoft.jpg" alt="Microsoft"></div>
+    <div class="client-logo"><img src="assets/sap.jpg" alt="SAP"></div>
+    <div class="client-logo"><img src="assets/SCN.jpg" alt="Supply Chain Now"></div>
+    <div class="client-logo phoenix-logo"><img src="assets/Space_Phoenix%20copy.png" alt="Space Phoenix"></div>
+  </div>
+</section>
+
 <section id="about" class="about section">
   <img class="portrait-photo" src="assets/JD Photo.jpg" alt="Justin M. Daniels">
   <div><p class="eyebrow">ABOUT</p><h2>Justin M. Daniels</h2><h3>CREATIVE. TECHNICAL. STORY-DRIVEN.</h3>
-  <p>I'm a podcast producer, digital content strategist, video producer, audio engineer, and  with 25+ years of experience spanning media production, corporate media, podcast production, and digital marketing.</p>
+  <p>I'm a podcast producer, digital content strategist, video producer, audio engineer, and with 15+ years of experience spanning content creation, corporate media, podcast production, and digital marketing.</p>
   <p>My background lets me bridge the creative and technical sides of marketing — solving problems, building workflows, and delivering polished content from concept to final release.</p>
   <a class="btn" href="#contact">Let's Work Together</a></div>
 </section>

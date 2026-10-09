@@ -66,6 +66,14 @@
 .youtube-copy li:before{content:"•";font-size:21px;margin-right:10px}
 @media(max-width:900px){.youtube-title{grid-template-columns:1fr}.youtube-mark{display:none}.youtube-title h2{font-size:50px}.youtube-body{grid-template-columns:1fr;gap:35px}.youtube-image{order:0}}
 @media(max-width:560px){.youtube-case-study{padding:0 6% 60px}.youtube-title{padding:25px 6%;margin:0 -6%;min-height:180px}.youtube-title h2{font-size:38px}.youtube-body{padding-top:35px}}
+.campaign-case-study .youtube-title{grid-template-columns:1fr}
+.campaign-case-study .youtube-body{grid-template-columns:1.08fr 1fr}
+.campaign-images{display:grid;grid-template-columns:1.5fr 1fr;gap:18px;align-items:stretch}
+.campaign-images .youtube-image{order:0;height:100%;object-fit:cover}
+.campaign-stat{font-size:18px;margin:0 0 22px}
+.campaign-stat strong{display:block;font:700 72px/1 "Barlow Condensed",sans-serif;color:var(--accent)}
+@media(max-width:900px){.campaign-case-study .youtube-body{grid-template-columns:1fr}}
+@media(max-width:560px){.campaign-images{grid-template-columns:1fr}}
 .eyebrow,.social-title .eyebrow,.youtube-title .eyebrow{color:var(--accent)!important;font-size:20px!important;font-weight:800!important}
 .nav-group{position:relative}
 .nav-label{background:none;border:0;color:inherit;font:inherit;text-transform:inherit;letter-spacing:inherit;padding:0;cursor:pointer}
